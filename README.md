@@ -1,4 +1,4 @@
-# py-modem
+# sms_modem
 
 ### Pre-requisites
   - [Docker]
