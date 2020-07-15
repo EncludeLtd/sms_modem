@@ -5,8 +5,10 @@
   - [Docker Compose]
 
 ### ./.env.prod
-Create a file for the environment variables in the root directory called ".env.prod"
+Create a file for the environment variables in the root directory called ".env.prod" with the following variables
 ```
+WEBSOCKET_URI=wss://{web-service-ws-endpoint} # currently "wss://sms.enclude.ie"
+WS_KEY={websocket-secret} #Must match WS_KEY in sms_webservice
 ```
 
 ### Docker Run Script
